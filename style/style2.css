@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(153, 250, 218);
+}
+.MyApp{
+    font-weight: bolder;
+    font-style: italic;
+}
+.a_liste{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: teal;
+}
+.retour{
+    background-color: rgb(153, 250, 218);
+    width: 200px;
+    height: 35px;
+    font-weight: bold;
+    font-size: larger;
+}
+body .container .row .sign{
+    display: block;
+    margin-left: auto;
+}
+.sign_up{
+    background-color: rgb(136, 223, 194);
+    width: 100px;
+    height: 60px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+}
+.sign_in{
+    background-color: rgb(118, 196, 170);
+    width: 100px;
+    height: 60px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+}
+.inscription{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form_compte{
+    margin-top: 50px;
+}
+.input_compte{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 35px;
+}
+.submit{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 100px;
+    background-color:  rgb(81, 146, 124);
+    color: rgb(29, 27, 114);
+    font-weight: bolder;
+    font-size: larger;
+}
+footer{
+    margin-top: 179px;
+}
