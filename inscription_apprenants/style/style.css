@@ -26,8 +26,8 @@ body .container .row .sign{
     display: block;
     margin-left: auto;
 }
-.felicitation{
-    display: flex;
+.bien_connecter{
+    text-align: center;
 }
 .cadre{
     padding-top: 10px;
@@ -69,11 +69,14 @@ body .container .row .sign{
     border-radius: 10px;
     margin-bottom: 10px;
     height: 40px;
-    width: 100px;
+    width: 150px;
     background-color:  rgb(81, 146, 124);
     color: rgb(29, 27, 114);
     font-weight: bolder;
     font-size: larger;
+}
+.voir_liste{
+    float: right;
 }
 footer{
     margin-top: 179px;
