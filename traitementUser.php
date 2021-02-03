@@ -49,9 +49,9 @@ $preparation -> execute(array($pseudo,$email,$password));
                     <img  class="img-fluid" height="40px" width="60px" src="style/images/index.jpg" alt=""> 
                 </div>
                 <p>Vous venez de créer un compte</p> <br>
-                <p class="avant_sign" ><strong><a href="identification.html">Veuillez vous connecter svp.</a></strong></p>
+                <p class="avant_sign" ><strong><a href="identification.php">Veuillez vous connecter svp.</a></strong></p>
                 <div class="sign">
-                    <button class="sign_in"> <a href="index.html">Retour</a> </button>
+                    <button class="sign_in"> <a href="index.php">Retour</a> </button>
                 </div>
             </div>
             <div class="col-4"></div>

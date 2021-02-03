@@ -22,7 +22,7 @@
     </header> 
         <!-- début entete-->
     <div class="container">
-        <div class="row">
+        <div class="row-fluid">
             <h4 class="bien_connecter">Vous ètes maintenant connecté(e). Veuillez ajouter un apprenant.</h4>
         </div>
         <div class="row form_compte">
@@ -30,11 +30,11 @@
             <div class="col-4-fluid cadre">
                 <h3 class="inscription"><strong>Enregistrement</strong></h3>
                 <form action="traitement.php" method="post">
-                    <input class="input_compte" type="text" name="nom" placeholder="Nom"> <br>
+                    <input class="input_compte" type="text" name="nom" placeholder="Nom" pattern="[A-Za-z]{1,}"> <br>
                     <input class="input_compte" type="text" name="prenom" placeholder="Prénom(s)"> <br>
                     <input class="input_compte" type="date" name="naissance" placeholder="Date de naissance"> <br>
                     <input class="input_compte" type="email" name="email" placeholder="E-mail"> <br>
-                    <input class="input_compte" type="number" name="telephone" placeholder="Téléphone"> <br>
+                    <input class="input_compte" type="text" name="telephone" placeholder="Téléphone" pattern="[0-9]{1,}"> <br>
                     <input class="input_compte" type="text" name="branche" placeholder="Branche"> <br>
                     <input class="submit" type="submit" value="Enregistrer">
                 </form>

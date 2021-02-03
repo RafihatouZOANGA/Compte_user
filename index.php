@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style/styleUser.css">
 </head>
 <body>
+    
     <!-- début entete-->
     <header> 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -26,13 +27,13 @@
             <div class="col-4"></div>
             <div class="col-4-fluid cadre">
                 <h3 class="inscription" ><strong>Créer un compte</strong></h3>
-                <form action="traitement.php" method="post">
+                <form action="traitementUser.php" method="post">
                     <input class="input_compte" type="text" name="pseudo" placeholder="Pseudo"> <br>
-                    <input class="input_compte" type="email" name="email" placeholder="E-mail"> <br>
-                    <input class="input_compte" type="password" name="password" placeholder="Mot de passe"> <br>
-                    <input class="submit" type="submit" value="Valider">
+                    <input class="input_compte" type="email" name="email" placeholder="E-mail" require="required" autocompplete="off"> <br>
+                    <input class="input_compte" type="password" name="password" placeholder="Mot de passe" require="required" autocompplete="off"> <br>
+                    <input class="submit" name="valider" type="submit" value="Valider">
                 </form>
-                <p class="avant_sign" ><a href="identification.html">Avez-vous déjà un compte?</a></p>
+                <p class="avant_sign"><a href="identification.html">Avez-vous déjà un compte?</a></p>
                 
             </div>
             <div class="col-4"></div>
